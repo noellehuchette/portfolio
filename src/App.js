@@ -6,9 +6,7 @@ import Footer from './client/components/Footer/index';
 function App() {
   return (
     <div className="App">
-      <nav>
-        <Nav />
-      </nav>
+      <Nav />
       <main>
         <Routes />
       </main>
