@@ -1,17 +1,19 @@
 import './App.css';
 import Routes from './client/components/Routes';
+import Nav from './client/components/Nav/index';
+import Footer from './client/components/Footer/index';
 
 function App() {
   return (
     <div className="App">
       <nav>
+        <Nav />
       </nav>
-      <header className="App-header">
-      </header>
-      <div className='content-body'>
+      <main>
         <Routes />
-      </div>
+      </main>
       <footer>
+        <Footer />
       </footer>
     </div>
   );
