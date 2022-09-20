@@ -1,8 +1,8 @@
 .footer {
   align-self: flex-end;
   background-color: #0C120C;
-  font-size: 12px;
-  height: 26px;
+  font-size: 1rem;
+  height: 30px;
   width: 100%;
   display: flex;
   flex-direction: row;
@@ -11,4 +11,15 @@
   box-shadow: 0px -3px 8px rgba(109, 114, 117, 0.5);
   position: absolute;
   bottom: 0px;
+  color: #C20114;
+  font-family: monospace;
+}
+
+a {
+  text-decoration: none;
+  color: #C7D6D5;
+  padding: 5px;
+  text-transform: uppercase;
+  align-self: center;
+  justify-content: center;
 }

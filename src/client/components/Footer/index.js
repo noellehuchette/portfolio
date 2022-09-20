@@ -1,14 +1,13 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import './style.css';
 
 const Footer = () => {
     return (
         <div className='footer'>            
             <p>||</p>
-            <p>LinkedIn</p>                
+            <a href='https://www.linkedin.com/in/noelle-huchette/'>LinkedIn</a>                
             <p>||</p>
-            <p>Github</p>
+            <a href='https://github.com/noellehuchette'>Github</a>
             <p>||</p>
         </div>
     );

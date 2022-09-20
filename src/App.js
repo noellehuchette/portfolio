@@ -6,13 +6,15 @@ import Footer from './client/components/Footer/index';
 function App() {
   return (
     <div className="App">
-      <Nav />
       <main>
-        <Routes />
+        <Nav />
+        <div className="content">
+          <Routes />
+        </div>
+        <footer>
+          <Footer />
+        </footer>
       </main>
-      <footer>
-        <Footer />
-      </footer>
     </div>
   );
 }
