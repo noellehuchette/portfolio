@@ -17,11 +17,11 @@
 
 .bio-block {
   text-align: left;
-  width: 90%;
+  width: 95%;
   display: flex;
   flex-direction: column;
   font-family: monospace;
-  box-shadow: 2px 2px 4px rgba(109, 114, 117, 0.65);
+  box-shadow: 2px 2px 8px rgba(109, 114, 117, 0.35);
   border-radius: 0.5rem;
 }
 
@@ -56,11 +56,17 @@
   margin: 1.25rem;
 }
 
-.headshot {
-  box-shadow: 2px 2px 4px rgba(109, 114, 117, 0.65);
-  padding: 6px;
+.headshot-block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 2px 2px 8px rgba(109, 114, 117, 0.35);
+  border-radius: 50%;
+  padding: 1rem;
   border: double 0.3rem #6D7275;
-  width: 50%;
+}
+
+.headshot {
   max-width: 250px;
   border-radius: 50%;
 }

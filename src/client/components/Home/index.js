@@ -5,7 +5,9 @@ const Home = (props) => {
   return (
     <div className="home-block">
       <div className="personal-info">
-        <img className="headshot" src="/headshot.jpg" />
+        <div className="headshot-block">
+          <img className="headshot" src="/headshot.jpg" />
+        </div>
         <div className="bio-block">
           <div className="block-content">
             <div className="block-title">
@@ -13,7 +15,13 @@ const Home = (props) => {
             </div>
             <h3>Noelle Huchette</h3>
             <span>(they/them)</span>
-            <p> hi there im noelle im writing a bio hahaha </p>
+            <p>
+              {' '}
+              Mechanical engineer turned software developer. Strong problem
+              solving skills with a passion for collaboration and a growth
+              mindset. Interested in making a positive impact through
+              well-crafted technological solutions for issues large and small.
+            </p>
           </div>
         </div>
       </div>
