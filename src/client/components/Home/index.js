@@ -6,7 +6,7 @@ const Home = (props) => {
     <div className="home-block">
       <div className="personal-info">
         <div className="headshot-block">
-          <img className="headshot" src="/headshot.jpg" />
+          <img className="headshot" src="/headshot.jpg" alt="Noelle Huchette" />
         </div>
         <div className="bio-block">
           <div className="block-content">

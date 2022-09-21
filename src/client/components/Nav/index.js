@@ -12,9 +12,9 @@ const Nav = () => {
           RESUME
         </a>
         <p>||</p>
-        <a>PROJECTS</a>
+        <a href="www.noellehuchette.dev">PROJECTS</a>
         <p>||</p>
-        <a>CONTACT</a>
+        <a href="www.noellehuchette.dev">CONTACT</a>
       </div>
     </nav>
   );
