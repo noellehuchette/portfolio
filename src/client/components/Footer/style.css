@@ -9,7 +9,9 @@
   justify-content: center;
   align-items: center;
   box-shadow: 0px -5px 25px  rgba(109, 114, 117, 0.2);
-  bottom: 0px;
+  bottom: 0;
+  left: 0;
+  right: 0;
   color: #C20114;
   font-family: monospace;
 }
