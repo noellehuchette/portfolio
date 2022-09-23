@@ -5,17 +5,11 @@ import Footer from './client/components/Footer/index';
 
 function App() {
   return (
-    <div className="App">
-      <main>
-        <Nav />
-        <div className="content">
-          <Routes />
-        </div>
-        <footer>
-          <Footer />
-        </footer>
-      </main>
-    </div>
+    <main>
+      <Nav />
+      <Routes />
+      <Footer />
+    </main>
   );
 }
 
