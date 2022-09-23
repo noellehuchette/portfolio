@@ -6,7 +6,6 @@ const Nav = () => {
     <nav>
       <div className="menu-head">
         <h3>Noelle Huchette</h3>
-        <small>under construction</small>
       </div>
       <div className="menu-pages">
         <a href="/NoelleResumeAug2022.pdf" download="NoelleHuchette-Resume">
