@@ -29,7 +29,7 @@ nav {
   font-size: 2rem;
   margin: 0.1rem 10px 0.25rem;
   -webkit-text-stroke: 0.08rem #ECEBF3;
-  letter-spacing: 0.2rem;
+  letter-spacing: 0.25rem;
   text-transform: uppercase;
   text-align: center;
 }
@@ -52,7 +52,7 @@ nav {
 }
 
 .menu-pages a { 
-  font-size: 1.2rem;
+  font-size: 1rem;
   color: #C7D6D5;
   text-decoration: none;
   font-family: monospace;
