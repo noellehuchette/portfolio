@@ -38,6 +38,9 @@
   align-items: center;
   border-bottom: dashed 0.1rem 
 #C20114;
+
+border-top: dashed 0.1rem 
+#C20114;
 }
 
 .project-header a {
