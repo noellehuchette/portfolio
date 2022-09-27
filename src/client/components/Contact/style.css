@@ -8,7 +8,7 @@
   box-shadow: 2px 2px 8px rgba(109, 114, 117, 0.35);
 }
 
-h3 {
+.block-title h3 {
   font-size: 1.6rem;
   margin: 12px;
   padding: 2px 10px 8px 10px;
@@ -35,4 +35,8 @@ h3 {
   display: flex;
   flex-direction: column;
   border: double 0.3rem #6D7275;
+}
+
+.contact-item {
+  margin: 0 1.5rem;
 }
