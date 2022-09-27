@@ -17,39 +17,41 @@ const Projects = () => {
                   {project.name}
                 </a>
               </div>
-              <div>
-                <span className="project-detail-label">Role: </span>
-                <span className="project-detail-content">{project.role}</span>
-              </div>
-              <div>
-                <span className="project-detail-label">Date: </span>
-                <span className="project-detail-content">{project.date}</span>
-              </div>
-              <div>
-                <span className="project-detail-label">Type: </span>
-                <span className="project-detail-content">{project.type}</span>
-              </div>
-              <span className="project-detail-label">Description: </span>
-              <div>
-                <span className="project-detail-content">
-                  {project.description}
-                </span>
-              </div>
-              <div className="tech-stack">
-                <span className="project-detail-label">
-                  Technologies Used:{' '}
-                </span>
-                {project.tech.map((tech, idx) => {
-                  return (
-                    <span key={tech}>
-                      {idx ? <span className="tech-divider">, </span> : ''}
-                      {tech}
-                    </span>
-                  );
-                })}
-              </div>
-              <div className="github">
-                <a href={project.github}>github</a>
+              <div className="project-content">
+                <div>
+                  <span className="project-detail-label">Role: </span>
+                  <span className="project-detail-content">{project.role}</span>
+                </div>
+                <div>
+                  <span className="project-detail-label">Date: </span>
+                  <span className="project-detail-content">{project.date}</span>
+                </div>
+                <div>
+                  <span className="project-detail-label">Type: </span>
+                  <span className="project-detail-content">{project.type}</span>
+                </div>
+                <span className="project-detail-label">Description: </span>
+                <div>
+                  <span className="project-detail-content">
+                    {project.description}
+                  </span>
+                </div>
+                <div className="tech-stack">
+                  <span className="project-detail-label">
+                    Technologies Used:{' '}
+                  </span>
+                  {project.tech.map((tech, idx) => {
+                    return (
+                      <span key={tech}>
+                        {idx ? <span className="tech-divider">, </span> : ''}
+                        {tech}
+                      </span>
+                    );
+                  })}
+                </div>
+                <div className="github">
+                  <a href={project.github}>github</a>
+                </div>
               </div>
             </div>
           );
