@@ -29,7 +29,7 @@ const projects = [
   {
     id: 1,
     name: 'Matrix Synth',
-    date: 'July 2022',
+    date: 'August 2022',
     type: 'Web Application',
     description:
       'Matrix Synth was another bootcamp project, done in a weekend, I took advantage of the freeform structure of the project to pursue a personal project developing a synthesizer and sequencer application. This provided me with an opportunity for applying algorithmic thinking through the matrix and sharpened my understanding of frontend technologies including React, Redux, and AudioContext.',

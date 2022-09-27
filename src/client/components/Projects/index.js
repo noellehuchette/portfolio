@@ -26,11 +26,6 @@ const Projects = () => {
               <span className="project-detail-label">Type: </span>
               <span className="project-detail-content">{project.type}</span>
             </p>
-
-            <p>
-              <span className="project-detail-label">Date: </span>
-              <span className="project-detail-content">{project.date}</span>
-            </p>
             <p>
               <a href={project.github}>github</a>
             </p>
