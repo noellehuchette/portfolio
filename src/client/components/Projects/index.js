@@ -5,50 +5,53 @@ import './style.css';
 const Projects = () => {
   return (
     <div className="projects-page">
-      <h2>Projects</h2>
-      {projects.map((project) => {
-        return (
-          <div key={project.name} className="project-block">
-            <div>
-              <a className="project-title" href={project.deployed}>
-                {project.name}
-              </a>
+      <div className="block-content">
+        <div className="block-title">
+          <h3>$ projects</h3>
+        </div>
+        {projects.map((project) => {
+          return (
+            <div key={project.name} className="project-block">
+              <div className="project-header">
+                <a className="project-title" href={project.deployed}>
+                  {project.name}
+                </a>
+                <a href={project.github}>github</a>
+              </div>
+              <div>
+                <span className="project-detail-label">Role: </span>
+                <span className="project-detail-content">{project.role}</span>
+              </div>
+              <div>
+                <span className="project-detail-label">Date: </span>
+                <span className="project-detail-content">{project.date}</span>
+              </div>
+              <div>
+                <span className="project-detail-label">Type: </span>
+                <span className="project-detail-content">{project.type}</span>
+              </div>
+              <span className="project-detail-label">Description: </span>
+              <div>
+                <span className="project-detail-content">
+                  {project.description}
+                </span>
+              </div>
+              <span className="project-detail-label">Technologies used: </span>
+              <div className="tech-stack">
+                {project.tech.map((tech, idx) => {
+                  return (
+                    <span key={tech}>
+                      {' '}
+                      {idx ? <span className="tech-divider">-</span> : ''}{' '}
+                      {tech}{' '}
+                    </span>
+                  );
+                })}
+              </div>
             </div>
-            <p>
-              <span className="project-detail-label">Role: </span>
-              <span className="project-detail-content">{project.role}</span>
-            </p>
-            <p>
-              <span className="project-detail-label">Date: </span>
-              <span className="project-detail-content">{project.date}</span>
-            </p>
-            <p>
-              <span className="project-detail-label">Type: </span>
-              <span className="project-detail-content">{project.type}</span>
-            </p>
-            <p>
-              <a href={project.github}>github</a>
-            </p>
-            <span className="project-detail-label">Description: </span>
-            <p>
-              <span className="project-detail-content">
-                {project.description}
-              </span>
-            </p>
-            <span className="project-detail-label">Technologies used: </span>
-            <div className="tech-stack">
-              {project.tech.map((tech, idx) => {
-                return (
-                  <span key={tech}>
-                    {' '}
-                    {idx ? <span className="tech-divider">-</span> : ''} {tech}{' '}
-                  </span>
-                );
-              })}
-            </div>
-          </div>
-        );
-      })}
+          );
+        })}
+      </div>
     </div>
   );
 };
