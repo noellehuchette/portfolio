@@ -23,7 +23,9 @@
 }
 
 .contact-label span {
+  font-size: 1rem;
   text-transform: none;
+  margin: 0 1rem;
 }
 
 
@@ -36,9 +38,12 @@
 }
 
 .contact-item {
-  margin: 0 2rem;
+  display: flex;
+  justify-content: stretch;
+  align-items: center;
+  margin: 0.5rem 0;
 }
 
 .contact-item h4 {
-  margin: 0.5rem;
+  margin: 1rem 1rem;
 }
