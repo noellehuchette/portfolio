@@ -35,14 +35,15 @@ const Projects = () => {
                   {project.description}
                 </span>
               </div>
-              <span className="project-detail-label">Technologies used: </span>
               <div className="tech-stack">
+                <span className="project-detail-label">
+                  Technologies Used:{' '}
+                </span>
                 {project.tech.map((tech, idx) => {
                   return (
                     <span key={tech}>
-                      {' '}
-                      {idx ? <span className="tech-divider">-</span> : ''}{' '}
-                      {tech}{' '}
+                      {idx ? <span className="tech-divider">, </span> : ''}
+                      {tech}
                     </span>
                   );
                 })}
