@@ -23,17 +23,6 @@ nav {
   flex-direction: column;
 }
 
-.menu-head h3 {
-  align-self: center;
-  color: transparent;
-  font-size: 2rem;
-  margin: 0.1rem 10px 0.25rem;
-  -webkit-text-stroke: 0.08rem #ECEBF3;
-  letter-spacing: 0.2rem;
-  text-transform: uppercase;
-  text-align: center;
-}
-
 .menu-pages {
   width: 100%;
   display: flex;
@@ -51,9 +40,24 @@ nav {
   color: #C20114;
 }
 
-.menu-pages a { 
-  font-size: 1rem;
+.menu-head button { 
+  align-self: center;
+  letter-spacing: 0.25rem;
+  text-transform: uppercase;
+  text-align: center;
+  -webkit-text-stroke: 0.1rem #ECEBF3;
+  font-size: 2.25rem;
+  font-weight: bold;
+  background: transparent;
+  color: transparent;
+  border: none;
+}
+
+.menu-pages button { 
+  font-size: 1.25rem;
+  background: transparent;
   color: #C7D6D5;
   text-decoration: none;
   font-family: monospace;
+  border: none;
 }

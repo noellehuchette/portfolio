@@ -1,21 +1,34 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 import './style.css';
 
 const Nav = () => {
+  let navigate = useNavigate();
   return (
     <nav>
       <div className="menu-head">
-        <h3>Noelle Huchette</h3>
-        <small>under construction</small>
+        <button onClick={() => navigate('/')}>Noelle Huchette</button>
       </div>
       <div className="menu-pages">
         <a href="/NoelleResumeAug2022.pdf" download="NoelleHuchette-Resume">
-          RESUME
+          <button>RESUME</button>
         </a>
         <p>||</p>
-        <a href="https://www.noellehuchette.dev">PROJECTS</a>
+        <button
+          onClick={() => {
+            navigate('/projects');
+          }}
+        >
+          PROJECTS
+        </button>
         <p>||</p>
-        <a href="https://www.noellehuchette.dev">CONTACT</a>
+        <button
+          onClick={() => {
+            navigate('/contact');
+          }}
+        >
+          CONTACT
+        </button>
       </div>
     </nav>
   );
