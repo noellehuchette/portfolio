@@ -32,7 +32,6 @@ nav {
   align-items: center;
   border: double 0.3rem #6D7275;
   border-radius: 0.3rem;
-  padding: 2px;
 }
 
 .menu-pages p {
@@ -40,13 +39,14 @@ nav {
   color: #C20114;
 }
 
-.menu-head button { 
+.menu-head button {
+  letter-spacing: 0.12rem;
   align-self: center;
-  letter-spacing: 0.25rem;
   text-transform: uppercase;
   text-align: center;
-  -webkit-text-stroke: 0.1rem #ECEBF3;
-  font-size: 2.25rem;
+  -webkit-text-stroke: 0.08rem #ECEBF3;
+  font-size: 2rem;
+  margin: 0.2rem 0;
   font-weight: bold;
   background: transparent;
   color: transparent;
@@ -54,7 +54,7 @@ nav {
 }
 
 .menu-pages button { 
-  font-size: 1.25rem;
+  font-size: 1rem;
   background: transparent;
   color: #C7D6D5;
   text-decoration: none;
