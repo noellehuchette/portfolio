@@ -36,9 +36,9 @@
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  border-bottom: dashed 0.1rem 
+  border-bottom: dotted 0.1rem 
 #C20114;
-border-top: dashed 0.1rem 
+border-top: dotted 0.1rem 
 #C20114;
 }
 
