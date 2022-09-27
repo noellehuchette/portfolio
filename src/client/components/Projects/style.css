@@ -1,5 +1,5 @@
 .projects-page {
-  margin: 0.5rem;
+  margin: 1rem;
   min-width: 300px;
   text-align: left;
   display: flex;
@@ -18,18 +18,8 @@
   border: double 0.3rem #6D7275;
 }
 
-h3 {
-  font-size: 1.6rem;
-  margin: 1rem;
-  padding: 2px 10px 8px 10px;
-  font-style: oblique;
-  border-bottom: double 0.3rem 
-#C20114;
-}
 .project-block {
-  border: double 0.3rem #6D7275;
   border-radius: 0.3rem;
-  margin: 0.5rem;
   padding: 1rem;
   display: flex;
   flex-direction: column;
@@ -46,7 +36,7 @@ h3 {
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  border-bottom: double 0.3rem 
+  border-bottom: dashed 0.1rem 
 #C20114;
 }
 
