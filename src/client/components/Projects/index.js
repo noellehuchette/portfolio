@@ -16,7 +16,6 @@ const Projects = () => {
                 <a className="project-title" href={project.deployed}>
                   {project.name}
                 </a>
-                <a href={project.github}>github</a>
               </div>
               <div>
                 <span className="project-detail-label">Role: </span>
@@ -47,6 +46,9 @@ const Projects = () => {
                     </span>
                   );
                 })}
+              </div>
+              <div className="github">
+                <a href={project.github}>github</a>
               </div>
             </div>
           );

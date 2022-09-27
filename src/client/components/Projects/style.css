@@ -34,12 +34,11 @@ h3 {
   display: flex;
   flex-direction: column;
   gap: 1rem;
-  box-shadow: 2px 2px 8px rgba(109, 114, 117, 0.35);
 }
 
 .project-header {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   border-bottom: double 0.3rem 
 #C20114;
@@ -52,5 +51,11 @@ h3 {
 
 .project-title {
   padding: 0.5rem;
-  font-size: 1.6rem;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.github {
+  font-size: 1.2rem;
+  align-self: flex-end;
 }
