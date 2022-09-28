@@ -18,8 +18,8 @@
 
 .contact-label {
   color: #ECEBF3;
-  text-transform:uppercase;
-  font-size: 1.2rem;
+  text-transform: capitalize;
+  font-size: 1.1rem;
 }
 
 .contact-label span {
