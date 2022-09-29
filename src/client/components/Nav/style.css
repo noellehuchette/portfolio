@@ -51,13 +51,24 @@ nav {
   background: transparent;
   color: transparent;
   border: none;
+  cursor: pointer;
+}
+
+.menu-head button:hover {
+  background-color: #141c14;
 }
 
 .menu-pages button { 
+  padding: 1rem;
   font-size: 1rem;
   background: transparent;
   color: #C7D6D5;
   text-decoration: none;
   font-family: monospace;
   border: none;
+  cursor: pointer;
+}
+
+.menu-pages button:hover {
+  background-color: #141c14;
 }
