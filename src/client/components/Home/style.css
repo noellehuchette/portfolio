@@ -16,7 +16,7 @@
 /* ### BIO ### */
 
 .bio-block {
-  width: 66%;
+  width: 60%;
   min-width: 300px;
   text-align: left;
   display: flex;
@@ -81,7 +81,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  box-shadow: 0 0 8px rgba(109, 114, 117, 0.35);
+  box-shadow: 0 0 12px rgba(109, 114, 117, 0.35);
   border-radius: 50%;
   padding: 1rem;
   border: double 0.3rem #6D7275;
