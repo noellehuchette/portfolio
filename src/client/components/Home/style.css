@@ -27,7 +27,7 @@
   /* border-radius: 0.4rem; */
   animation: pulseShadow 5s infinite;
   animation-delay: 0.25s;
-  animation-timing-function: ease-in;
+  animation-timing-function: ease-in-out;
 }
 
 @keyframes pulseShadow {
