@@ -50,7 +50,7 @@
   flex-direction: column;
   border: double 0.3rem #6D7275;
   animation: pulseRadius 5s infinite;
-  animation-timing-function: ease-in;
+  animation-timing-function: ease-in-out;
   animation-delay: 0.25s;
 }
 
