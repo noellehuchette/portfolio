@@ -11,7 +11,7 @@ const Nav = () => {
         <button onClick={() => navigate('/')}>Noelle Huchette</button>
       </div>
       <div className="menu-pages">
-        <a href="/NoelleResumeAug2022.pdf" download="NoelleHuchette-Resume">
+        <a href="/NoelleHuchetteResume.pdf" download="NoelleHuchetteResume">
           <button>RESUME</button>
         </a>
         <p>||</p>
