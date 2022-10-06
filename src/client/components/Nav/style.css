@@ -40,6 +40,7 @@ nav {
 }
 
 .menu-head button {
+  user-select: none;
   letter-spacing: 0.12rem;
   align-self: center;
   text-transform: uppercase;
@@ -58,6 +59,7 @@ nav {
 }
 
 .menu-pages button { 
+  user-select: none;
   padding: 0.5rem;
   font-size: 1rem;
   background: transparent;
