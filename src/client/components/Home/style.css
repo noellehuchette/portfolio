@@ -70,7 +70,7 @@
   display: flex;
   flex-direction: column;
   font-family: monospace;
-  box-shadow: 0px 0px 12px rgba(109, 114, 117, 0.5);
+  box-shadow: 0px 0px 4px rgba(109, 114, 117, 0.5);
   /* box-shadow: 0 0 0 rgba(109, 114, 117, 0.35); */
   /* animation: pulseShadow 5s infinite;
   animation-delay: 0.25s;
@@ -110,7 +110,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  box-shadow: 0 0 12px rgba(109, 114, 117, 0.35);
+  box-shadow: 0 0 4px rgba(109, 114, 117, 0.35);
   border-radius: 50%;
   border: double 0.3rem #6D7275;
 }
@@ -131,6 +131,6 @@
   display: flex;
   flex-direction: column;
   font-family: monospace;
-  box-shadow: 0 0 12px rgba(109, 114, 117, 0.35)
+  box-shadow: 0 0 4px rgba(109, 114, 117, 0.35)
 }
 
