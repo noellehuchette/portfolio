@@ -42,18 +42,11 @@ const Home = (props) => {
             </div>
             <h4>Technical</h4>
             <ul>
-              <li>Javascript</li>
-              <li>Java</li>
-              <li>Python</li>
-              <li>HTML && CSS</li>
-              <li>XML</li>
+              <li>Javascript, HTML, CSS</li>
               <li>React</li>
               <li>Redux</li>
               <li>D3</li>
-              <li>Bootstrap</li>
-              <li>MaterialUI</li>
               <li>Node</li>
-              <li>SQL</li>
               <li>PostgreSQL</li>
               <li>Sequelize</li>
               <li>Express</li>
