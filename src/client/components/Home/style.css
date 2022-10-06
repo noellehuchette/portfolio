@@ -1,3 +1,18 @@
+/*### CONSTRUCTION ###*/
+.construction {
+  user-select: none;
+}
+
+.construction button {
+  background: transparent;
+  border: none;
+  text-transform: uppercase;
+  color: #ECEBF3;
+  cursor: pointer;
+}
+
+/*### PAGE ###*/
+
 .home-block {
   display: flex;
   flex-direction: column;
@@ -118,3 +133,4 @@
   font-family: monospace;
   box-shadow: 0 0 12px rgba(109, 114, 117, 0.35)
 }
+
