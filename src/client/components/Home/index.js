@@ -29,7 +29,7 @@ const Home = (props) => {
             <div className="block-title">
               <h2>$ skills</h2>
             </div>
-            <p>fufughhg</p>
+            <p></p>
           </div>
         </div>
         {loremIpsum()}
