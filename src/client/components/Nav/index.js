@@ -10,10 +10,6 @@ const Nav = () => {
         <button onClick={() => navigate('/')}>Noelle Huchette</button>
       </div>
       <div className="menu-pages">
-        <a href="/NoelleHuchetteResume.pdf" download="NoelleHuchetteResume">
-          <button>RESUME</button>
-        </a>
-        <p>||</p>
         <button
           onClick={() => {
             navigate('/projects');
@@ -29,6 +25,10 @@ const Nav = () => {
         >
           CONTACT
         </button>
+        <p>||</p>
+        <a href="/NoelleHuchetteResume.pdf" download="NoelleHuchetteResume">
+          <button>RESUME</button>
+        </a>
       </div>
     </nav>
   );
