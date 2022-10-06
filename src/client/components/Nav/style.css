@@ -44,12 +44,11 @@ nav {
   align-self: center;
   text-transform: uppercase;
   text-align: center;
-  -webkit-text-stroke: 0.08rem #ECEBF3;
   font-size: 2rem;
   margin: 0.2rem 0;
-  font-weight: bold;
+  font-family: monospace;
   background: transparent;
-  color: transparent;
+  color: #ECEBF3;
   border: none;
   cursor: pointer;
 }
