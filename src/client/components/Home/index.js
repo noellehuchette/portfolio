@@ -29,26 +29,38 @@ const Home = (props) => {
             <div className="block-title">
               <h2>$ skills</h2>
             </div>
+            <h4>Technical</h4>
             <ul>
               <li>Javascript</li>
+              <li>Java</li>
+              <li>Python</li>
               <li>HTML && CSS</li>
+              <li>XML</li>
               <li>React</li>
               <li>Redux</li>
               <li>D3</li>
               <li>Bootstrap</li>
               <li>MaterialUI</li>
+              <li>Node</li>
               <li>SQL</li>
               <li>PostgreSQL</li>
               <li>Sequelize</li>
               <li>Express</li>
               <li>Firebase</li>
               <li>JWT</li>
-              <li>Java</li>
-              <li>Python</li>
+              <li>Git/Github</li>
+              <li>RESTful APIs</li>
+            </ul>
+            <h4>General</h4>
+            <ul>
+              <li>Problem Solving</li>
+              <li>Teamwork</li>
+              <li>Documentation</li>
+              <li>Personal Communication</li>
+              <li>Time Management</li>
             </ul>
           </div>
         </div>
-        {loremIpsum()}
       </div>
     </div>
   );
