@@ -17,15 +17,23 @@ const Home = (props) => {
             <span>(they/them)</span>
             <p>
               {' '}
-              Mechanical engineer turned software developer. Strong problem
-              solving skills with a passion for collaboration and a growth
-              mindset. Interested in making a positive impact through
+              Mechanical engineer turned full stack software developer. Strong
+              problem solving skills with a passion for collaboration and a
+              growth mindset. Interested in making a positive impact through
               well-crafted technological solutions for issues large and small.
             </p>
           </div>
         </div>
+        <div className="skills-block">
+          <div className="block-content">
+            <div className="block-title">
+              <h2>$ skills</h2>
+            </div>
+            <p>fufughhg</p>
+          </div>
+        </div>
+        {loremIpsum()}
       </div>
-      {loremIpsum()}
     </div>
   );
 };

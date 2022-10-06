@@ -7,7 +7,6 @@ const Nav = () => {
   return (
     <nav>
       <div className="menu-head">
-        <small>under construction</small>
         <button onClick={() => navigate('/')}>Noelle Huchette</button>
       </div>
       <div className="menu-pages">
