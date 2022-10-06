@@ -19,8 +19,10 @@ const Home = (props) => {
               {' '}
               Mechanical engineer turned full stack software developer. Strong
               problem solving skills with a passion for collaboration and a
-              growth mindset. Interested in making a positive impact through
-              well-crafted technological solutions for issues large and small.
+              growth mindset. Quick and enthusiastic learner. Interested in
+              making a positive impact through well-crafted technological
+              solutions for issues large and small. Dependable, intelligent, and
+              tenacious worker.
             </p>
           </div>
         </div>
