@@ -29,7 +29,23 @@ const Home = (props) => {
             <div className="block-title">
               <h2>$ skills</h2>
             </div>
-            <p></p>
+            <ul>
+              <li>Javascript</li>
+              <li>HTML && CSS</li>
+              <li>React</li>
+              <li>Redux</li>
+              <li>D3</li>
+              <li>Bootstrap</li>
+              <li>MaterialUI</li>
+              <li>SQL</li>
+              <li>PostgreSQL</li>
+              <li>Sequelize</li>
+              <li>Express</li>
+              <li>Firebase</li>
+              <li>JWT</li>
+              <li>Java</li>
+              <li>Python</li>
+            </ul>
           </div>
         </div>
         {loremIpsum()}
