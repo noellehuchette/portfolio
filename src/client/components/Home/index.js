@@ -22,7 +22,7 @@ const Home = (props) => {
               growth mindset. Quick and enthusiastic learner. Interested in
               making a positive impact through well-crafted technological
               solutions for issues large and small. Dependable, intelligent, and
-              tenacious worker.
+              tenacious worker excited to break into the industry.
             </p>
           </div>
         </div>
