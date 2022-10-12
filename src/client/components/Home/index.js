@@ -20,7 +20,7 @@ const Home = (props) => {
         <div className="bio-block">
           <div className="block-content">
             <div className="block-title">
-              <h2>$ bio</h2>
+              <h2>bio</h2>
             </div>
             <h3>Noelle Huchette</h3>
             <span>(they/them)</span>
@@ -30,7 +30,7 @@ const Home = (props) => {
               problem solving skills with a passion for collaboration and a
               growth mindset. Quick and enthusiastic learner. Interested in
               making a positive impact through well-crafted technological
-              solutions for issues large and small. Dependable, intelligent, and
+              solutions for issues large and small. Reliable, intelligent, and
               tenacious worker excited to break into the industry.
             </p>
           </div>
@@ -38,7 +38,7 @@ const Home = (props) => {
         <div className="skills-block">
           <div className="block-content">
             <div className="block-title">
-              <h2>$ skills</h2>
+              <h2>proficiencies</h2>
             </div>
             <h4>Technical</h4>
             <ul>
