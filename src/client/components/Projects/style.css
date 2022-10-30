@@ -5,7 +5,7 @@
   display: flex;
   flex-direction: column;
   font-family: monospace;
-  box-shadow: 2px 2px 8px rgba(109, 114, 117, 0.35);
+  box-shadow: 0 0 8px rgba(109, 114, 117, 0.35);
   border-radius: 0.5rem;
   gap: 1rem;
 }
