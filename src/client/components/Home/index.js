@@ -1,7 +1,7 @@
 import React from 'react';
 import './style.css';
 
-const Home = (props) => {
+const Home = () => {
   return (
     <div className="home-block">
       <div className="personal-info">
@@ -45,6 +45,8 @@ const Home = (props) => {
               <li>JavaScript, HTML, CSS</li>
               <li>React</li>
               <li>Redux</li>
+              <li>Bootstrap</li>
+              <li>MaterialUI</li>
               <li>Node</li>
               <li>PostgreSQL</li>
               <li>Sequelize</li>
@@ -69,6 +71,8 @@ const Home = (props) => {
               <li>Python</li>
               <li>TypeScript</li>
               <li>Chai</li>
+              <li>Jasmine</li>
+              <li>Stripe</li>
               <li>D3</li>
             </ul>
           </div>
