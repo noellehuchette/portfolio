@@ -51,7 +51,7 @@ const Home = () => {
               <li>PostgreSQL</li>
               <li>Sequelize</li>
               <li>Express</li>
-              <li>Firebase</li>
+              <li>Firebase/Firestore</li>
               <li>JWT</li>
               <li>Git/Github</li>
               <li>RESTful APIs</li>
