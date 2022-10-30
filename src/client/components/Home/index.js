@@ -8,7 +8,7 @@ const Home = () => {
         <div className="headshot-block">
           <img className="headshot" src="/headshot.jpg" alt="Noelle Huchette" />
         </div>
-        <div className="construction">
+        {/* <div className="construction">
           <h3>under construction</h3>
 
           <a href="https://github.com/noellehuchette/portfolio-page">
@@ -16,7 +16,7 @@ const Home = () => {
               <small>check out the github!</small>
             </button>
           </a>
-        </div>
+        </div> */}
         <div className="bio-block">
           <div className="block-content">
             <div className="block-title">
