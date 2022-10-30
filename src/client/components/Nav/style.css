@@ -51,6 +51,7 @@ nav {
   background: transparent;
   color: #ECEBF3;
   border: none;
+  border-radius: 0.5rem;
   cursor: pointer;
 }
 
@@ -68,6 +69,7 @@ nav {
   font-family: monospace;
   border: none;
   cursor: pointer;
+  border-radius: 0.5rem;
 }
 
 .menu-pages button:hover {
