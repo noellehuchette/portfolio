@@ -38,20 +38,20 @@ const Home = (props) => {
         <div className="skills-block">
           <div className="block-content">
             <div className="block-title">
-              <h2>proficiencies</h2>
+              <h2>skills</h2>
             </div>
-            <h4>Technical</h4>
+            <h4>Proficient</h4>
             <ul>
-              <li>Javascript, HTML, CSS</li>
+              <li>JavaScript, HTML, CSS</li>
               <li>React</li>
               <li>Redux</li>
-              <li>D3</li>
               <li>Node</li>
               <li>PostgreSQL</li>
               <li>Sequelize</li>
               <li>Express</li>
               <li>Firebase</li>
               <li>JWT</li>
+              <li>Chai</li>
               <li>Git/Github</li>
               <li>RESTful APIs</li>
             </ul>
@@ -62,6 +62,13 @@ const Home = (props) => {
               <li>Documentation</li>
               <li>Personal Communication</li>
               <li>Time Management</li>
+            </ul>
+            <h4>Familiar</h4>
+            <ul>
+              <li>Java</li>
+              <li>Python</li>
+              <li>TypeScript</li>
+              <li>D3</li>
             </ul>
           </div>
         </div>
