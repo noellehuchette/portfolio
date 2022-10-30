@@ -51,7 +51,6 @@ const Home = (props) => {
               <li>Express</li>
               <li>Firebase</li>
               <li>JWT</li>
-              <li>Chai</li>
               <li>Git/Github</li>
               <li>RESTful APIs</li>
               <li>Markdown</li>
@@ -69,6 +68,7 @@ const Home = (props) => {
               <li>Java</li>
               <li>Python</li>
               <li>TypeScript</li>
+              <li>Chai</li>
               <li>D3</li>
             </ul>
           </div>
