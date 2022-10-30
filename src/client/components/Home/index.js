@@ -54,6 +54,7 @@ const Home = (props) => {
               <li>Chai</li>
               <li>Git/Github</li>
               <li>RESTful APIs</li>
+              <li>Markdown</li>
             </ul>
             <h4>General</h4>
             <ul>
