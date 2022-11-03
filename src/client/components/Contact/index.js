@@ -6,7 +6,7 @@ const Contact = () => {
     <div className="contact-page">
       <div className="block-content">
         <div className="block-title">
-          <h3> $ contact </h3>
+          <h3>contact </h3>
         </div>
         <div className="contact-item">
           <a href="tel:8047620267" className="contact-label">

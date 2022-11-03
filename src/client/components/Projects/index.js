@@ -7,7 +7,7 @@ const Projects = () => {
     <div className="projects-page">
       <div className="block-content">
         <div className="block-title">
-          <h3>$ projects</h3>
+          <h3>projects</h3>
         </div>
         {projects.map((project) => {
           return (
