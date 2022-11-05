@@ -5,7 +5,7 @@ const projects = [
     date: 'July 2022',
     type: 'Webpage',
     description:
-      "Every Daisy of the Week was the first project I was a part of during my bootcamp experience at Fullstack Academy. We were tasked with developing, testing, and deploying a functional e-commerce website in just over a week's time. My contributions were primarily on the backend, building out authorization with JWT, enabling checkout for both registered users and guests, developing custom middleware for the server, and building out our database models with a number of functions for retrieving or modifying specific data.",
+      "Every Daisy of the Week was the first project I was a part of during bootcamp. We were tasked with developing, testing, and deploying a functional e-commerce website in just over a week's time. My contributions were primarily on the backend, building out authorization with JWT, enabling checkout for both registered users and guests, developing custom middleware for the server, and building out our database models with a number of functions for retrieving or modifying specific data.",
     role: 'Full Stack Developer, Backend Specialist',
     tech: [
       'Stripe',

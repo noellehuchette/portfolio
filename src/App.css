@@ -9,5 +9,6 @@ main {
 .content {
   margin: 0;
   width: 100%;
-  padding: 8rem 0 4rem;
+  height: 100%;
+  padding: 8rem 0 6rem;
 }
