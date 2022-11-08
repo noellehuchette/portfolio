@@ -4,6 +4,7 @@ main {
   flex-direction: column;
   justify-content: stretch;
   align-items: center;
+  min-height: 100%;
 }
 
 .content {
