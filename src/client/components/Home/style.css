@@ -1,20 +1,3 @@
-/*### CONSTRUCTION ###*/
-.construction {
-  user-select: none;
-  flex-direction: column;
-  display: flex;
-  align-items: center;
-  justify-content: center
-}
-
-.construction button {
-  background: transparent;
-  border: none;
-  text-transform: uppercase;
-  color: #ECEBF3;
-  cursor: pointer;
-}
-
 /*### PAGE ###*/
 
 .home-block {
