@@ -8,6 +8,7 @@ const Projects = () => {
       <div className="block-content">
         <div className="block-title">
           <h3>projects</h3>
+          <h5>Click the project title to visit the page!</h5>
         </div>
         {projects.map((project) => {
           return (
