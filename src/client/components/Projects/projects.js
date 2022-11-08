@@ -51,7 +51,7 @@ const projects = [
     id: 2,
     name: 'Webby',
     date: 'August 2022',
-    type: 'Social Networking Application',
+    type: 'Social Networking Website',
     description:
       'Webby was the capstone project I worked on to close out my bootcamp experience. We decided to develop a social networking app intended to connect people with shared hobbies. I used this opportunity to expand my design knowledge and further dive into the frontend. I was responsible for refining the UX with MaterialUI, as well as building the full vertical slice of the user profile and edit profile form.',
     role: 'Full Stack Developer, Frontend Specialist',
