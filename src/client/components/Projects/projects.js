@@ -5,7 +5,7 @@ const projects = [
     date: 'July 2022',
     type: 'E-Commerce Website',
     description:
-      "Every Daisy of the Week was the first project I was a part of during bootcamp. We were tasked with developing, testing, and deploying a functional e-commerce website in just over a week's time. My contributions were primarily on the backend, building out authorization with JWT, enabling checkout for both registered users and guests, developing custom middleware for the server, and building out our database models with a number of functions for retrieving or modifying specific data.",
+      "Every Daisy of the Week was the first bootcamp project I worked on in a group. We were tasked with developing, testing, and deploying a functional e-commerce website in just over a week's time. My contributions were primarily on the backend, building out authorization with JWT, enabling checkout for both registered users and guests, developing custom middleware for the server, and building out our database models with a number of functions for retrieving or modifying specific data.",
     role: 'Full Stack Developer, Backend Specialist',
     tech: [
       'Stripe',
@@ -32,7 +32,7 @@ const projects = [
     date: 'August 2022 - Present',
     type: 'Personal Interest Project',
     description:
-      'Matrix Synth was another bootcamp project, done in a weekend, I took advantage of the freeform structure of the project to pursue a personal project developing a synthesizer and sequencer application. This provided me with an opportunity for applying algorithmic thinking through the matrix and sharpened my understanding of frontend technologies including React, Redux, and AudioContext.',
+      'Matrix Synth was another bootcamp project, completed over a weekend in a simulated hackathon. I took advantage of the freeform structure of the project to pursue a personal interest project developing a synthesizer and sequencer application. This provided me with an opportunity for applying algorithmic thinking through the matrix and sharpened my understanding of frontend technologies including React, Redux, and AudioContext.',
     role: 'Solo Developer',
     tech: [
       'React',
@@ -53,7 +53,7 @@ const projects = [
     date: 'August 2022',
     type: 'Social Networking Website',
     description:
-      'Webby was the capstone project I worked on to close out my bootcamp experience. We decided to develop a social networking app intended to connect people with shared hobbies. I used this opportunity to expand my design knowledge and further dive into the frontend. I was responsible for refining the UX with MaterialUI, as well as building the full vertical slice of the user profile and edit profile form.',
+      'Webby was the capstone project I worked on to close out my bootcamp experience. We decided to develop a social networking app intended to connect people with shared hobbies in an accessible, user-friendly manner. I used this opportunity to expand my design knowledge and further dive into the frontend. I was responsible for refining the UX with MaterialUI, as well as building the full vertical slice of the user profile and edit profile form.',
     role: 'Full Stack Developer, Frontend Specialist',
     tech: [
       'React',
