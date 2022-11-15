@@ -24,6 +24,11 @@ const Home = () => {
               solutions for issues large and small. Reliable, intelligent, and
               tenacious worker excited to break into the industry.
             </p>
+            <p>
+              This page was built entirely in vanillaJS and React. No UI
+              libraries were used, everything you see here is constructed and
+              styled by hand in HTML && CSS{' '}
+            </p>
           </div>
         </div>
         <div className="skills-block">
