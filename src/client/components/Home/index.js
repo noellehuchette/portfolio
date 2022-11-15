@@ -60,11 +60,17 @@ const Home = () => {
             <ul>
               <li>Java</li>
               <li>Python</li>
-              <li>TypeScript</li>
               <li>Chai</li>
               <li>Jasmine</li>
               <li>Stripe</li>
               <li>D3</li>
+            </ul>
+            <h4>Learning</h4>
+            <ul>
+              <li>TypeScript</li>
+              <li>C#</li>
+              <li>Unity</li>
+              <li>Docker</li>
             </ul>
           </div>
         </div>
