@@ -33,12 +33,12 @@ const Home = () => {
             </div>
             <h4>Proficient</h4>
             <ul>
-              <li>JavaScript, HTML, CSS</li>
+              <li>JavaScript/HTML/CSS</li>
               <li>React</li>
               <li>Redux</li>
               <li>Bootstrap</li>
               <li>MaterialUI</li>
-              <li>Node</li>
+              <li>Node.js</li>
               <li>PostgreSQL</li>
               <li>Sequelize</li>
               <li>Express</li>
@@ -54,6 +54,7 @@ const Home = () => {
               <li>Teamwork</li>
               <li>Documentation</li>
               <li>Personal Communication</li>
+              <li>Professional Communication</li>
               <li>Time Management</li>
             </ul>
             <h4>Familiar</h4>
