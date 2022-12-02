@@ -23,7 +23,7 @@ const projects = [
       'Git',
       'Github'
     ],
-    deployed: 'https://every-daisy.herokuapp.com/',
+    deployed: 'https://every-daisy.onrender.com/',
     github: 'https://github.com/Sassy-Software-Engineers/Grace-Shopper'
   },
   {
