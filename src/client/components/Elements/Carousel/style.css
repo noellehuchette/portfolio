@@ -45,6 +45,12 @@
   height: 1.6rem;
   border-radius: 50%;
   border: none;
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.indicator > button:hover {
+  background-color: rgba(165, 176, 182, 0.678)
 }
 
 .indicator > button.active {
