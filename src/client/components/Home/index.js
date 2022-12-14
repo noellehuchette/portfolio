@@ -9,10 +9,10 @@ const Home = () => {
     <div className="home-block">
       <div className="personal-info">
         <Carousel>
-          <Slide>1</Slide>
-          <Slide>2</Slide>
-          <Slide>3</Slide>
-          <Slide>4</Slide>
+          <Slide image="./portslideshow/slide0.jpg"></Slide>
+          <Slide image="./portslideshow/slide1.jpg"></Slide>
+          <Slide image="./portslideshow/slide2.jpg"></Slide>
+          <Slide image="./portslideshow/slide3.jpg"></Slide>
         </Carousel>
         <div className="headshot-block">
           <img className="headshot" src="/headshot.jpg" alt="Noelle Huchette" />
