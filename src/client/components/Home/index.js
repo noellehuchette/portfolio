@@ -9,10 +9,14 @@ const Home = () => {
     <div className="home-block">
       <div className="personal-info">
         <Carousel>
-          <Slide image="./portslideshow/slide0.jpg"></Slide>
-          <Slide image="./portslideshow/slide1.jpg"></Slide>
-          <Slide image="./portslideshow/slide2.jpg"></Slide>
-          <Slide image="./portslideshow/slide3.jpg"></Slide>
+          <Slide
+            image="./portslideshow/slide0.jpg"
+            title="Noelle Huchette"
+            subtitle="Full Stack Developer | Software Engineer"
+          />
+          <Slide image="./portslideshow/slide1.jpg" />
+          <Slide image="./portslideshow/slide2.jpg" />
+          <Slide image="./portslideshow/slide3.jpg" />
         </Carousel>
         <div className="headshot-block">
           <img className="headshot" src="/headshot.jpg" alt="Noelle Huchette" />

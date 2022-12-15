@@ -14,12 +14,13 @@
 
 .carousel-slide{
   display: inline-flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   object-fit: cover;
   width: 100%;
   height: 100%;
-  background: no-repeat center;
+  background: center;
   background-size: cover;
 }
 
@@ -55,4 +56,19 @@
 
 .indicator > button.active {
   background-color: #6D7275;
+}
+
+.title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  -webkit-text-stroke: black 1px;
+  text-align: center;
+}
+
+
+.subtitle {
+  font-size: 1rem;
+  font-weight: bold;
+  -webkit-text-stroke: black 1px;
+  text-align: center;
 }
