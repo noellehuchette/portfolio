@@ -3,7 +3,6 @@
 .home-block {
   display: flex;
   flex-direction: column;
-  margin: 2rem 1rem 1rem;
 }
 
 .personal-info {
@@ -12,7 +11,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 3rem;
+  gap: 2rem;
 }
 
 .block-content {
@@ -92,7 +91,7 @@
 /* ### HEADSHOT ### */
 
 .headshot-block {
-  width: 220px;
+  width: 180px;
   padding: 1rem;
   display: flex;
   justify-content: center;

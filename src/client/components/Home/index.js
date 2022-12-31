@@ -1,10 +1,22 @@
 import React from 'react';
+import Carousel from '../Elements/Carousel';
+import Slide from '../Elements/Carousel/Slide';
+
 import './style.css';
 
 const Home = () => {
   return (
     <div className="home-block">
       <div className="personal-info">
+        <Carousel>
+          <Slide
+            image="./portslideshow/slide0.jpg"
+            title="Noelle Huchette"
+            subtitle="Full Stack Developer | Software Engineer"
+          />
+          <Slide image="./portslideshow/slide2.jpg" />
+          <Slide image="./portslideshow/slide3.jpg" />
+        </Carousel>
         <div className="headshot-block">
           <img className="headshot" src="/headshot.jpg" alt="Noelle Huchette" />
         </div>
@@ -23,11 +35,6 @@ const Home = () => {
               making a positive impact through well-crafted technological
               solutions for issues large and small. Reliable, intelligent, and
               tenacious worker excited to break into the industry.
-            </p>
-            <p>
-              This page was built entirely in vanillaJS and React. No UI
-              libraries were used, everything you see here is constructed and
-              styled by hand in HTML && CSS{' '}
             </p>
           </div>
         </div>
@@ -76,7 +83,6 @@ const Home = () => {
               <li>TypeScript</li>
               <li>C#</li>
               <li>Unity</li>
-              <li>Docker</li>
             </ul>
           </div>
         </div>
