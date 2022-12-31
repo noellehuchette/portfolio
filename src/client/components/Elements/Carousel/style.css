@@ -29,33 +29,36 @@
   justify-content: center;
   position: relative;
   align-items: center;
-  bottom: 2.5rem;
+  bottom: 3rem;
 }
 
 .indicator > button {
-  -webkit-text-stroke: black 0.5px;
-  font-weight: bold;
-  font-size: 1.2rem;
+  font-family: 'Courier New', Courier, monospace;
   color: white;
   background-color: transparent;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 0.25rem;
-  width: 1.6rem;
-  height: 1.6rem;
+  margin: 0.5rem;
+  width: 1.5rem;
+  height: 1.5rem;
   border-radius: 50%;
   border: none;
-  opacity: 0.8;
   cursor: pointer;
+  background-color: rgba(65, 76, 82);
+  opacity: 0.3;
 }
 
 .indicator > button:hover {
-  background-color: rgba(165, 176, 182, 0.3)
+  opacity: 0.7;
 }
 
 .indicator > button.active {
-  background-color: #6D7275;
+  opacity: 0.5;
+}
+
+.indicator > button.active:hover {
+  opacity: 0.9;
 }
 
 .title {
@@ -67,7 +70,7 @@
 
 
 .subtitle {
-  font-size: 1rem;
+  font-size: 1.2rem;
   font-weight: bold;
   -webkit-text-stroke: black 1px;
   text-align: center;

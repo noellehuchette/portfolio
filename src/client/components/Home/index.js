@@ -14,7 +14,6 @@ const Home = () => {
             title="Noelle Huchette"
             subtitle="Full Stack Developer | Software Engineer"
           />
-          <Slide image="./portslideshow/slide1.jpg" />
           <Slide image="./portslideshow/slide2.jpg" />
           <Slide image="./portslideshow/slide3.jpg" />
         </Carousel>
@@ -84,7 +83,6 @@ const Home = () => {
               <li>TypeScript</li>
               <li>C#</li>
               <li>Unity</li>
-              <li>Docker</li>
             </ul>
           </div>
         </div>

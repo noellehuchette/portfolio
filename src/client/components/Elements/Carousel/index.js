@@ -56,7 +56,7 @@ const Carousel = ({ children }) => {
             updateIdx(activeIdx - 1);
           }}
         >
-          &lt;&lt;
+          ◀
         </button>
         {React.Children.map(children, (child, idx) => {
           return (
@@ -65,9 +65,7 @@ const Carousel = ({ children }) => {
               onClick={() => {
                 updateIdx(idx);
               }}
-            >
-              {idx + 1}
-            </button>
+            ></button>
           );
         })}
         <button
@@ -75,7 +73,7 @@ const Carousel = ({ children }) => {
             updateIdx(activeIdx + 1);
           }}
         >
-          &gt;&gt;
+          ▶
         </button>
       </div>
     </div>
