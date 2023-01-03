@@ -1,6 +1,6 @@
 import React from 'react';
-import Carousel from '../Elements/Carousel';
-import Slide from '../Elements/Carousel/Slide';
+// import Carousel from '../Elements/Carousel';
+// import Slide from '../Elements/Carousel/Slide';
 
 import './style.css';
 
