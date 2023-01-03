@@ -47,7 +47,7 @@ const Carousel = ({ children }) => {
         style={{ transform: `translateX(-${activeIdx * 100}%)` }}
       >
         {React.Children.map(children, (child, idx) => {
-          return React.cloneElement(child, { width: '100%' });
+          return React.cloneElement(child);
         })}
       </div>
       <div className="indicator">
@@ -61,7 +61,7 @@ const Carousel = ({ children }) => {
         {React.Children.map(children, (child, idx) => {
           return (
             <button
-              className={`${idx === activeIdx ? 'active' : {}}`}
+              className={`${idx === activeIdx ? 'active' : ''}`}
               onClick={() => {
                 updateIdx(idx);
               }}
