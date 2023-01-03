@@ -1,6 +1,6 @@
 /* ### CAROUSEL ### */
 
-.carousel {
+.carousel {  
   overflow: hidden;
   width: 100%;
   height: 15rem;
@@ -10,15 +10,15 @@
   white-space: nowrap;
   transition: transform 0.3s;
   height: 100%;
+  width: 100%;
 }
 
 .carousel-slide{
-  display: inline-flex;
+  display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   object-fit: cover;
-  width: 100%;
   height: 100%;
   background: center;
   background-size: cover;
@@ -62,7 +62,7 @@
 }
 
 .title {
-  font-size: 1.5rem;
+  font-size: 1.75rem;
   font-weight: bold;
   -webkit-text-stroke: black 1px;
   text-align: center;
@@ -70,7 +70,7 @@
 
 
 .subtitle {
-  font-size: 1.2rem;
+  font-size: 1.25rem;
   font-weight: bold;
   -webkit-text-stroke: black 1px;
   text-align: center;

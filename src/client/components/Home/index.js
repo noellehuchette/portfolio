@@ -8,7 +8,7 @@ const Home = () => {
   return (
     <div className="home-block">
       <div className="personal-info">
-        <Carousel>
+        {/* <Carousel>
           <Slide
             image="./portslideshow/slide0.jpg"
             title="Noelle Huchette"
@@ -16,7 +16,7 @@ const Home = () => {
           />
           <Slide image="./portslideshow/slide2.jpg" />
           <Slide image="./portslideshow/slide3.jpg" />
-        </Carousel>
+        </Carousel> */}
         <div className="headshot-block">
           <img className="headshot" src="/headshot.jpg" alt="Noelle Huchette" />
         </div>
