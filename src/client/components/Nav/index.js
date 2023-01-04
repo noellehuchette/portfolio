@@ -26,7 +26,7 @@ const Nav = () => {
           CONTACT
         </button>
         <p>||</p>
-        <a href="/NoelleHuchetteResume.pdf" download="NoelleHuchetteResume">
+        <a href="/NoelleHuchetteResume.pdf">
           <button>RESUME</button>
         </a>
       </div>
