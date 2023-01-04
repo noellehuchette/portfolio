@@ -7,12 +7,14 @@ import store from './client/store/index';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import ScrollToTop from './scrollToTop';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <Provider store={store}>
       <Router history={history}>
+        <ScrollToTop />
         <App />
       </Router>
     </Provider>
