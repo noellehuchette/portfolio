@@ -29,12 +29,17 @@ const Home = () => {
             <span>(they/them)</span>
             <p>
               {' '}
-              Mechanical engineer turned full stack software developer. Strong
-              problem solving skills with a passion for collaboration and a
-              growth mindset. Quick and enthusiastic learner. Interested in
-              making a positive impact through well-crafted technological
-              solutions for issues large and small. Reliable, intelligent, and
-              tenacious worker excited to break into the industry.
+              Software Engineer with a background in mechanical engineering and
+              control systems. Tenacious and professional individual that excels
+              at listening to both customer and business needs. Self starter
+              with strong problem solving skills and well developed
+              organizational abilities. Productive relationship builder and
+              exceptional listener with a growth mindset and the ability to
+              learn to perform duties with minimal supervision.{' '}
+            </p>
+            <p>
+              Interested in making a positive impact through well-crafted
+              technological solutions for issues large and small.
             </p>
           </div>
         </div>
@@ -69,7 +74,7 @@ const Home = () => {
               <li>Professional Communication</li>
               <li>Time Management</li>
             </ul>
-            <h4>Familiar</h4>
+            <h4>Learning</h4>
             <ul>
               <li>Java</li>
               <li>Python</li>
@@ -77,9 +82,6 @@ const Home = () => {
               <li>Jasmine</li>
               <li>Stripe</li>
               <li>D3</li>
-            </ul>
-            <h4>Learning</h4>
-            <ul>
               <li>TypeScript</li>
               <li>C#</li>
               <li>Unity</li>
